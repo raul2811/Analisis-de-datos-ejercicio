@@ -78,5 +78,20 @@ promedio_notas(file, nombre): #Calcula el promedio de las notas G1, G2 y G3 de l
 ```
 -------------------------
 # Graficos
+#### Estas son algunas de las graficas generadas:
+##### Grafica De Sexo mousinho da silveira matematicas   
+ <img src="https://github.com/raul2811/Analisis-de-datos-ejercicio/blob/main/Graficas/Grafica_De_Sexo_mousinho_da_silveira_mat.png" alt="Grafica_De_Sexo_mousinho_da_silveira_mat" width="500"/>    
 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg](https://github.com/raul2811/Analisis-de-datos-ejercicio/blob/main/Graficas/Grafica_De_Sexo_mousinho_da_silveira_mat.png)" alt="Grafica_De_Sexo_mousinho_da_silveira_mat"/>
+##### Grafica De cantidad de estudiantes que tienen la misma edad mousinho da silveira matematicas      
+ <img src="https://github.com/raul2811/Analisis-de-datos-ejercicio/blob/main/Graficas/Grafica_De_cantidad_de_estudiantes_que_tienen_la_misma_edad_mousinho_da_silveira_mat.png" alt="Grafica_De_Sexo_mousinho_da_silveira_mat" width="500"/>   
+
+##### Grafica De promedio de las notas de G1 G2 G3 mousinho da silveira matematicas         
+ <img src="https://github.com/raul2811/Analisis-de-datos-ejercicio/blob/main/Graficas/Grafica_De_promedio_de_las_notas_de_G1_G2_G3_mousinho_da_silveira_mat.png" alt="Grafica_De_Sexo_mousinho_da_silveira_mat" width="500"/>    
+
+-------------    
+    
+Por ultimo pasamos los datos limpios a un nuevo csv:
+```python
+variable=("student{}_resultado_.csv".format(nombre))
+    csv.to_csv(variable,sep=";")
+```
